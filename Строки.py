@@ -103,3 +103,71 @@ print(noviq_text)
 message = "Ошибка: файл не найден! Повторите попытку."
 new_text = message.replace("файл" , "документ")
 print(new_text)
+
+
+
+# Задача 1 (Создание строки)
+# Напиши код, который создаёт строку "Hello, Python!" и выводит её на экран.
+
+text_nev = "Hello, Python!"
+print(text_nev)
+
+# Задача 2 (Доступ к символам)
+# Дан текст: "Automation". Выведи третий символ этой строки.
+
+xx = "Automation"
+result = xx[2]
+print(result)
+
+# Задача 3 (Срезы)
+# Дана строка: "Programming". Выведи срез с 3-го по 7-й символ включительно.
+
+nev_stroka = "Programming"
+result = nev_stroka[3:8]
+print(result)
+
+# Задача 4 (Получение длины строки)
+# Дана строка: "Testing". Напиши код, который выводит её длину.
+
+nev_stroka1 = "Testing"
+result = len(nev_stroka1)
+print(result)
+
+# Задача 5 (Конкатенация строк)
+# Объедини строки "Hello" и "World" с пробелом между ними и выведи результат.
+
+privet = "Hello"
+word = "World"
+result = privet + " " + word
+print(result)
+
+# Задача 6 (F-строки)
+# Даны переменные:
+# name = "Alice"
+# age = 25
+# Создай строку с помощью f-строки в формате: "Name: Alice, Age: 25" и выведи её.
+
+name = "Alice"
+age = 25
+
+print(f"Name: {name}, Age: {age}")
+
+# Задача 7 (Базовые методы строк)
+# Дана строка: " python " (с пробелами в начале и конце).
+# Напиши код, который удалит пробелы только справа и выведет результат.
+
+stroka = " python "
+novai_str = stroka.lstrip()
+print(novai_str)
+
+# Задача 8 (Случайный раздел: F-строки)
+# Даны переменные:
+# product = "laptop"
+# price = 999
+# Создай с помощью f-строки сообщение: "The laptop costs $999" и выведи его.
+
+product = "laptop"
+price = 999
+
+text3 = f"The {product} costs ${price}"
+print(text3)
